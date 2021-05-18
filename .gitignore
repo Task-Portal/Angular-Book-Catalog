@@ -1,11 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-BooksFront/dist
-BooksFront/tmp
-BooksFront/out-tsc
-# Only exists if Bazel was run
-BooksFront/bazel-out
+
 
 # dependencies
 BooksFront/node_modules
