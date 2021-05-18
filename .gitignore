@@ -1,0 +1,56 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+BooksFront/dist
+BooksFront/tmp
+BooksFront/out-tsc
+# Only exists if Bazel was run
+BooksFront/bazel-out
+
+# dependencies
+BooksFront/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+BooksFront/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+BooksFront/.sass-cache
+BooksFront/connect.lock
+BooksFront/coverage
+BooksFront/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+BooksFront/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# compiled output
+NodeJs/dist
+NodeJs/tmp
+NodeJs/out-tsc
+# Only exists if Bazel was run
+NodeJs/bazel-out
+
+# dependencies
+NodeJs/node_modules
