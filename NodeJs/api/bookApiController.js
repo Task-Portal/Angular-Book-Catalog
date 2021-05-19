@@ -3,7 +3,7 @@ const router = express.Router();
 const ObjectId = require("mongoose").Types.ObjectId;
 const { Book } = require("../models/book");
 
-//1 Get all employees
+//1 Get all books
 router.get("/", (req, res) => {
   Book.find((err, data) => {
     if (!err) {
